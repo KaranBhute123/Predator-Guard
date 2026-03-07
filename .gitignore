@@ -1,0 +1,68 @@
+# Virtual Environment
+animal/
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swaпо
+*.vscode
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data (keep only metadata, exclude large raw files)
+dataset/raw/*
+!dataset/raw/.gitkeep
+dataset/processed/X_*.npy
+dataset/processed/y_*.npy
+dataset/processed/train/
+dataset/processed/val/
+dataset/processed/test/
+
+# Models (exclude large model files)
+models/*.h5
+models/*.pkl
+models/*.pth
+
+# Logs
+logs/
+*.log
+
+# Output files
+output video/
+output/
+*.avi
+*.mp4
+*.wav
+*.mp3
+
+# System files
+.DS_Store
+Thumbs.db
+*.csv.bak
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+~$*
