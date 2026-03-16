@@ -6,8 +6,8 @@ import requests
 from datetime import datetime
 
 # --- CONFIGURATION ---
-TOKEN = "8310524934:AAHF7VF-WsOHm6lWaIMzYAbGHS1UT_ruATM"
-CHAT_ID = "7039154615" 
+TOKEN = "TeligramBot Token Key"
+CHAT_ID = "TeligramBot Chat ID" 
 
 # PATHS
 MODEL_PATH = r"D:\animal detection\models\predator_guard_model.h5"
