@@ -18,8 +18,8 @@ st.sidebar.title(" Settings")
 
 # 1. Telegram Settings
 st.sidebar.header("Telegram Bot")
-TOKEN = st.sidebar.text_input("Bot Token", value="8310524934:AAHF7VF-WsOHm6lWaIMzYAbGHS1UT_ruATM", type="password")
-CHAT_ID = st.sidebar.text_input("Chat ID", value="7039154615")
+TOKEN = st.sidebar.text_input("Bot Token", value="48rh4rXXXXXXXXXXXXX", type="password")
+CHAT_ID = st.sidebar.text_input("Chat ID", value="23m4n4XXXXXXX")
 ENABLE_ALERTS = st.sidebar.checkbox("Enable Real Telegram Alerts", value=False)
 
 # 2. Thresholds (Live Tuning)
